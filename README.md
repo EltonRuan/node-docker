@@ -42,13 +42,13 @@ Perfect for learning, testing APIs, or quickly starting new Node.js + MongoDB pr
 1. **Clone the repository to your local machine:**
 
 ```bash
-git clone https://github.com/EltonRuan/node-express-mongo-docker
+git clone https://github.com/EltonRuan/node-docker
 ```
 
 2. **Navigate to the project directory:**
 
 ```bash
-cd node-express-mongo-docker
+cd node-docker
 ```
 
 3. **Start the containers:**
@@ -68,7 +68,7 @@ You should see **node\_app**, **mongo\_db**, and **mongo\_express** running.
 ### PROJECT STRUCTURE
 
 ```
-node-express-mongo-docker/
+node-docker/
 │
 ├─ docker-compose.yml   # Docker Compose configuration
 ├─ Dockerfile           # Node.js + Express image configuration
